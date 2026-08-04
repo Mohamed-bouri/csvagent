@@ -65,8 +65,8 @@ html_def = f'<div dir="rtl" align="right"><b>{meaning}</b> ({word_type})</div>' 
 
 1. قم بتثبيت أو تحميل الملفات:
 ```bash
-git clone [https://github.com/Mohamed-bouri/your-repo-name.git](https://github.com/Mohamed-bouri/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/Mohamed-bouri/csvagent.git
+cd csvagent
 
 ```
 
@@ -74,7 +74,7 @@ cd your-repo-name
 2. ضع ملفات הـ CSV الخاصة بك باسم (`vol1.csv` إلى `vol6.csv`) داخل المجلد المحدد.
 3. قم بتشغيل السكريبت:
 ```bash
-python merge_script.py
+python csvagent.py
 
 ```
 
@@ -87,7 +87,7 @@ python merge_script.py
 يجب أن تحتوي ملفات الـ CSV الإدخالية على ترويسة (Header) تشمل الحقول التالية:
 `Word`, `Type`, `Meaning` (أو `Definition`).
 
-```csv
+```هذا مثال على التنسيق
 Word,Type,Meaning
 Haus,Noun,بيت / منزل
 laufen,Verb,يركض / يمشي
