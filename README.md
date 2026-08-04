@@ -63,9 +63,9 @@ html_def = f'<div dir="rtl" align="right"><b>{meaning}</b> ({word_type})</div>' 
 
 ### الخطوات
 
-1. قم باستคลان المستودع أو تحميل الملفات:
+1. قم بتثبيت أو تحميل الملفات:
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone [https://github.com/Mohamed-bouri/your-repo-name.git](https://github.com/Mohamed-bouri/your-repo-name.git)
 cd your-repo-name
 
 ```
